@@ -1,0 +1,103 @@
+/*更改header文字顏色*/
+.skin-blue .main-header .logo,
+.skin-blue .main-header .navbar,
+.skin-blue .main-header .navbar a,
+.skin-blue .main-header .navbar a:hover,
+.skin-blue .main-header .navbar a:visited {
+  color: #fff;
+}
+.main-header
+{
+  
+}
+/*上方標題-左邊*/
+.skin-blue .main-header .logo{
+  background-color: #006d77;
+  color: #edf6f9;
+  font-weight: bold;
+
+}
+
+/*上方標題-右邊*/
+.skin-blue .main-header .navbar
+{
+  /* background-color: #E0908D; */
+  background-color: #006d77;
+  color: #edf6f9;
+}
+/* 標題的按鈕 */
+.skin-blue .main-header .navbar .sidebar-toggle:hover
+{
+  background-color: rgb(255,255,255,.2);
+}
+/* 左邊選單 */
+.skin-blue .main-sidebar
+{
+  background-color: #006d77;
+  color: #F7EDE2;
+}
+
+/* 選中的選單選項 */
+.skin-blue .sidebar-menu>li.active>a
+{
+  font-size: large;
+  font-weight: bold;
+  background: rgb(255,255,255,.1);
+  border-left-color: #f6bd60;
+  border-left-width: 10px;
+}
+/* 選單選項 */
+.skin-blue .sidebar-menu>li>a
+{
+  font-size: large;
+  color: white;
+}
+/* 選單選項滑鼠觸碰 */
+.skin-blue .sidebar-menu>li>a:hover
+{
+  background-color: rgb(255,255,255,.2);
+}
+
+/* 右邊背景 */
+.content-wrapper, .right-side
+{
+  background-color: #e0ecec;
+}
+
+/* 右邊背景 */
+.navbar-default
+{
+  border-color: #E0D5BE;
+}
+
+/* 標籤頁按鈕 */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+  border-radius: 5px;
+  background-color: rgb(0,0,0,.1);
+  font-weight: bold;
+}
+
+/* 容器 */
+.container-fluid
+{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+/* 拉霸 */
+.irs--shiny .irs-bar
+{
+  top: 25px;
+  height: 8px;
+  border-top: 1px solid #f6bd60;
+  border-bottom: 1px solid #f6bd60;
+  background: #f6bd60;
+}
+/* 拉霸按鈕 */
+.irs--shiny .irs-single
+{
+  background-color: #006d77;
+}

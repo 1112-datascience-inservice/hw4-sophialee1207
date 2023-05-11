@@ -1,14 +1,14 @@
 # Interactive web service of PCA and CA analysis by Shinyapp
 
-#### Name: [your name in Chinese or English]
-#### Student ID: [your student ID]
-#### ShinyApps link: [<https://yourname.shinyapps.io/NCCU_DS2023_hw4_studentID/>]
+#### Name: [李姿瑩]
+#### Student ID: [111971018]
+#### ShinyApps link: [<https://sophialeety.shinyapps.io/NCCU_DS2023_hw4_111971018/>]
 
 ## Description
 
 <p align="center">
- <img src="/images/PCA.png" width="48%" height="48%" >
- <img src="/images/CA.png" width="48%" height="48%" >
+ <img src="./images/PCA.png" width="48%" height="48%" >
+ <img src="./images/CA.png" width="48%" height="48%" >
 <p/>
 
 
@@ -38,31 +38,6 @@ install.packages('remotes', dependencies = TRUE)
 remotes::install_github("vqv/ggbiplot")
 ```
 
-### How to publish your work on shinyapps.io? 🤔
-At the beginning, you have to sign up for [shinyapps.io](https://www.shinyapps.io/) account first
- 
-In RStudio IDE, you can manage your shinyapps.io accounts by going to `Tools → Global Options → Publishing`. 
-
-<p align="center">
- <img src="/images/shinyapp_on_rstudio.png" width="70%" height="70%" >
-<p/>
-
-After connecting your account you can start making your shinyapp. Please comply with the following folder structure. where `110753xxx`need to change to your student number.
-```
-110753xxx
-   |-- app.R
-```
-After finishing your shinyapps code, you can preview your website in the console with the following command.  
-```
-library(shiny)
-runApp("110753xxx")
-```
-Then, you can see the following screen, and there is a `publish` button in the upper right corner, click it to upload the website.
-Please note that you need to make sure your title conforms to the format → `NCCU_DS2023_hw4_studendID`
-
-<p align="center">
- <img src="/images/shinyapp_on_rstudio_2.png" width="60%" height="60%" >
-<p/>
 
 ## Scores: By Peer Evaluation
 ### Base Task (80 pts)
