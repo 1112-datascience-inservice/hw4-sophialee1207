@@ -7,8 +7,8 @@
 ## Description
 
 <p align="center">
- <img src="/111971018/images/PCA.png" width="48%" height="48%" >
- <img src="/111971018/images/CA.png" width="48%" height="48%" >
+ <img src="./111971018/images/PCA.png" width="48%" height="48%" >
+ <img src="./111971018/images/CA.png" width="48%" height="48%" >
 <p/>
 
 
